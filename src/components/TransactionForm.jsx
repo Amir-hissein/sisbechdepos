@@ -161,7 +161,7 @@ const TransactionForm = ({ activeCurrency, setActiveCurrency, exchangeRate, onAd
                             type="date"
                             value={formData.date}
                             onChange={e => setFormData({ ...formData, date: e.target.value })}
-                            className="w-full bg-bg-input border border-gray-200 rounded-xl px-3 py-3 md:px-4 md:py-3.5 text-sm md:text-base text-text-main font-semibold focus:outline-none focus:border-accent-primary focus:ring-4 focus:ring-accent-primary/10 transition-all shadow-sm hover:border-gray-300"
+                            className="w-full bg-bg-input border border-gray-200 rounded-xl px-3 py-3 md:px-4 md:py-3.5 text-sm md:text-base text-text-main font-semibold focus:outline-none focus:border-accent-primary focus:ring-4 focus:ring-accent-primary/10 transition-all shadow-sm hover:border-gray-300 appearance-none min-h-[46px] md:min-h-[52px]"
                             required
                         />
                     </div>
@@ -174,7 +174,7 @@ const TransactionForm = ({ activeCurrency, setActiveCurrency, exchangeRate, onAd
                             placeholder="Ex: Jean Dupont"
                             value={formData.name}
                             onChange={e => setFormData({ ...formData, name: e.target.value })}
-                            className="w-full bg-bg-input border border-gray-200 rounded-xl px-3 py-3 md:px-4 md:py-3.5 text-sm md:text-base text-text-main font-semibold focus:outline-none focus:border-accent-primary focus:ring-4 focus:ring-accent-primary/10 transition-all shadow-sm hover:border-gray-300 placeholder:text-gray-400"
+                            className="w-full bg-bg-input border border-gray-200 rounded-xl px-3 py-3 md:px-4 md:py-3.5 text-sm md:text-base text-text-main font-semibold focus:outline-none focus:border-accent-primary focus:ring-4 focus:ring-accent-primary/10 transition-all shadow-sm hover:border-gray-300 placeholder:text-gray-400 appearance-none min-h-[46px] md:min-h-[52px]"
                             required
                         />
                     </div>
@@ -192,7 +192,7 @@ const TransactionForm = ({ activeCurrency, setActiveCurrency, exchangeRate, onAd
                             placeholder="0.00"
                             value={formData.amount}
                             onChange={e => setFormData({ ...formData, amount: e.target.value })}
-                            className="w-full bg-bg-input border border-gray-200 rounded-xl px-3 py-3 md:px-4 md:py-3.5 text-sm md:text-base text-text-main font-semibold focus:outline-none focus:border-accent-primary focus:ring-4 focus:ring-accent-primary/10 transition-all shadow-sm hover:border-gray-300 placeholder:text-gray-400"
+                            className="w-full bg-bg-input border border-gray-200 rounded-xl px-3 py-3 md:px-4 md:py-3.5 text-sm md:text-base text-text-main font-semibold focus:outline-none focus:border-accent-primary focus:ring-4 focus:ring-accent-primary/10 transition-all shadow-sm hover:border-gray-300 placeholder:text-gray-400 appearance-none min-h-[46px] md:min-h-[52px]"
                             required
                         />
                     </div>
@@ -204,7 +204,7 @@ const TransactionForm = ({ activeCurrency, setActiveCurrency, exchangeRate, onAd
                             type="number"
                             value={formData.percentage}
                             onChange={e => setFormData({ ...formData, percentage: e.target.value })}
-                            className="w-full bg-bg-input border border-gray-200 rounded-xl px-3 py-3 md:px-4 md:py-3.5 text-sm md:text-base text-text-main font-semibold focus:outline-none focus:border-accent-primary focus:ring-4 focus:ring-accent-primary/10 transition-all shadow-sm hover:border-gray-300"
+                            className="w-full bg-bg-input border border-gray-200 rounded-xl px-3 py-3 md:px-4 md:py-3.5 text-sm md:text-base text-text-main font-semibold focus:outline-none focus:border-accent-primary focus:ring-4 focus:ring-accent-primary/10 transition-all shadow-sm hover:border-gray-300 appearance-none min-h-[46px] md:min-h-[52px]"
                             required
                         />
                     </div>
